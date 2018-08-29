@@ -108,8 +108,8 @@ const config = (function(){
 		titleWords:'祝我的老婆大人|生日快乐|永远幸福开心', // '|' 为分隔符
 		titleOpt:{
 			gap: 4,
-			size: 60,  //最后字的大小
-			pSize: 5,
+			size: 50,  //最后字的大小
+			pSize: 7,
 			delay: 4000, //
 			distance: 120, //行间距
 			e: 5000 //速率
