@@ -88,7 +88,7 @@ const config = (function(){
 			wait: undefined,  //消失后 => 炸裂  等待时间
 			color: undefined,  //烟花颜色
 		},
-		fireWords:'你的眼睛|真好看|里面有|日月冬夏|晴雨山川|但是|我的眼睛|更好看|因为|里面有你',  // '|' 为分隔符
+		fireWords:'我们的2018|很漫长|很艰苦|但是也很甜蜜|因为|我们有了小葡萄|因为|我们有了一个家',  // '|' 为分隔符
 		// hue:210 lightness 0
 		skyColor:'hsla({hue}, 60%, {lightness}%, 0.2)',	
 		fireOpt: {
@@ -105,7 +105,7 @@ const config = (function(){
 
 	
 		//阶段四
-		titleWords:'一不小心|就和你|到了白头', // '|' 为分隔符
+		titleWords:'祝我的老婆大人|生日快乐|永远幸福开心', // '|' 为分隔符
 		titleOpt:{
 			gap: 4,
 			size: 70,  //最后字的大小
