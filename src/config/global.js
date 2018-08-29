@@ -42,7 +42,7 @@ const config = (function(){
 
 		// 阶段一
 		dialogueOpt:{ 
-			interval: 3000,  //两句话的间隔时间
+			interval: 4000,  //两句话的间隔时间
 			speed: 100,   //语速
 			color1: '#ff00ff',
 			font1: '14px Arial',
