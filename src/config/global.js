@@ -42,7 +42,7 @@ const config = (function(){
 
 		// 阶段一
 		dialogueOpt:{ 
-			interval: 2000,  //两句话的间隔时间
+			interval: 3000,  //两句话的间隔时间
 			speed: 100,   //语速
 			color1: '#ff00ff',
 			font1: '14px Arial',
@@ -70,7 +70,7 @@ const config = (function(){
 
 		],
 		// 阶段二
-		sunset: 8000,   // 天黑时间
+		sunset: 5000,   // 天黑时间
 
 	    // 阶段三
 		fireworkInterval:[60, 240],// 烟花产生间隔 //---不建议改动
@@ -92,7 +92,7 @@ const config = (function(){
 		// hue:210 lightness 0
 		skyColor:'hsla({hue}, 60%, {lightness}%, 0.2)',	
 		fireOpt: {
-			wordInterval: 3000, //每段话出现的间隔时间
+			wordInterval: 4000, //每段话出现的间隔时间
 		},
     //烟花字的参数
     shape:{ 
