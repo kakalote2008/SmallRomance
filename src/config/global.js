@@ -42,7 +42,7 @@ const config = (function(){
 
 		// 阶段一
 		dialogueOpt:{ 
-			interval: 4000,  //两句话的间隔时间
+			interval: 3000,  //两句话的间隔时间
 			speed: 100,   //语速
 			color1: '#ff00ff',
 			font1: '14px Arial',
@@ -55,7 +55,10 @@ const config = (function(){
 		},
 		// type对应上面的color与font  若没有对应的 则默认为color1或font1
 		dialogue:[
-			{type:6, name:'导演', txt:'快过年了，我们去放烟花吧！'},
+			{type:2, name:'旁白', txt:'故事马上开始。。。'},
+			{type:2, name:'旁白', txt:'故事马上开始。。。'},
+			{type:2, name:'旁白', txt:'故事马上开始。。。'},
+			{type:6, name:'导演', txt:'今天是老婆大人生日，我们去放烟花吧！'},
 			{type:2, name:'佳佳', txt:'天还这么亮，现在放烟花也不好看。'},
 			{type:2, name:'佳佳', txt:'再说你那有烟花吗？'},
 			{type:6, name:'导演', txt:'我当然有烟花啦。'},
